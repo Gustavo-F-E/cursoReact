@@ -1,0 +1,22 @@
+npm create vite@latest
+  y
+  curso_react
+  React
+  JavaScript
+  No
+  Yes
+
+Comandos utiles:
+cd ..
+cd cursoReact
+npm run dev
+npm install -g serve
+npm run build
+serve -s dist
+npm install
+
+Comandos Git:
+git init
+git add .
+git commit -m "first commit"
+git
