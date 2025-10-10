@@ -1,35 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import { Boton } from "./components/Boton";
+import { Item1 } from "./components/Item1";
+import { Item2 } from "./components/Item2";
+import { Item3 } from "./components/Item3";
+import { Item4 } from "./components/Item4";
+import { Item5 } from "./components/Item5";
+import { Item6 } from "./components/Item6";
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const prod = { nombre: "Remera", precio: 10000, descripcion: "LALALA" };
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <Boton texto={"Enviar"} color={"green"} />
+        <Boton texto={"Cancelar"} color={"red"} />
+        <Item1
+          nombre={prod.nombre}
+          precio={prod.precio}
+          descripcion={prod.descripcion}
+        >
+          <button>un boton</button>
+        </Item1>
+        <Item2 item={prod} />
+        <Item3 {...prod} />
+        <Item4 {...prod} destacado={false} />
+        <Item6 nombre="Remera" precio={5000} />
+        <Item5>
+          <h1>Este tiene children</h1>
+          <p>{prod.nombre}</p>
+          <p>{prod.precio}</p>
+        </Item5>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
