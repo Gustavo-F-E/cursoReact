@@ -1,10 +1,10 @@
-import { Nav } from "../Nav/Nav.jsx";
+import { Nav } from "../Nav/Nav";
 
 export const Header = () => {
-    return (
-        <header>
-            <h1>Mi Tienda</h1>
-            <Nav />
-        </header>
-    );
+  return (
+    <header>
+      <h2>LOGO</h2>
+      <Nav />
+    </header>
+  );
 };

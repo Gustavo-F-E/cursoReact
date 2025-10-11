@@ -1,7 +1,7 @@
 export const Footer = () => {
-    return (
-        <header>
-            <h1>Soy el Footer</h1>
-        </header>
-    );
+  return (
+    <footer>
+      <p>Pagina creada por Beluzita</p>
+    </footer>
+  );
 };

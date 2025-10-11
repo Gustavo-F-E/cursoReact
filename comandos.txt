@@ -43,3 +43,8 @@ b309178 Componentes clase 3
 1ac52a8 clase 2: componentes y props
 
 git checkout '1ac52a8'
+git diff --name-only 678bd7b c8f45ab
+
+Estilos:
+npm install bootstrap
+
