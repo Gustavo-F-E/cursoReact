@@ -6,25 +6,30 @@ import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetail
 import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
 
 function App() {
-  return (
-    <>
-      <BrowserRouter>
-        <div>
-          <Header />
-          {/* Dejamos fuera del Routes lo que queremos que no se vuelva a renderizar al navegar */}
-          <Routes>
-            <Route
-              path="/"
-              element={<ItemListContainer titulo={"Bienvenidos"} />}
-            />
-            <Route path="/detail/:id" element={<ItemDetailContainer />} />
-          </Routes>
-          {/* Dejamos fuera del Routes lo que queremos que no se vuelva a renderizar al navegar */}
-          <Footer />
-        </div>
-      </BrowserRouter>
-    </>
-  );
+    return (
+        <>
+            <BrowserRouter>
+                <div className="app-container">
+                    <Header />
+                    {/* Dejamos fuera del Routes lo que queremos que no se vuelva a renderizar al navegar */}
+                    <Routes>
+                        <Route
+                            path="/"
+                            element={
+                                <ItemListContainer titulo={"Bienvenidos"} />
+                            }
+                        />
+                        <Route
+                            path="/detail/:id"
+                            element={<ItemDetailContainer />}
+                        />
+                    </Routes>
+                    {/* Dejamos fuera del Routes lo que queremos que no se vuelva a renderizar al navegar */}
+                    <Footer />
+                </div>
+            </BrowserRouter>
+        </>
+    );
 }
 
 export default App;

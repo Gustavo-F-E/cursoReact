@@ -1,26 +1,26 @@
 [
-  {
-    "id": "1",
-    "name": "Budín de limón",
-    "price": 4500,
-    "category": "dulce",
-    "description": "Budín húmedo de limón con glaseado casero.",
-    "imageUrl": "/images/budin-limon.jpg"
-  },
-  {
-    "id": "2",
-    "name": "Pan de masa madre",
-    "price": 3200,
-    "category": "salado",
-    "description": "Hogaza de 750 g con fermentación lenta de 24 horas.",
-    "imageUrl": "/images/pan-masa-madre.jpg"
-  },
-  {
-    "id": "3",
-    "name": "Croissant de manteca",
-    "category": "dulce",
-    "price": 1200,
-    "description": "Hojaldre 100% manteca, crujiente por fuera y tierno por dentro.",
-    "imageUrl": "/images/croissant.jpg"
-  }
+    {
+        "id": "1",
+        "name": "Royal Canin",
+        "price": 4500,
+        "category": "dulce",
+        "description": "Adulto mordida media.",
+        "imageUrl": "/images/productos/productos_perros/alimentos_perros/156157-removebg-preview.png"
+    },
+    {
+        "id": "2",
+        "name": "Old Prince",
+        "price": 3200,
+        "category": "salado",
+        "description": "Cordero Adulto Medio.",
+        "imageUrl": "/images/productos/productos_perros/alimentos_perros/old-prince-cordero-removebg-preview.png"
+    },
+    {
+        "id": "3",
+        "name": "Purina",
+        "category": "dulce",
+        "price": 1200,
+        "description": "Pollo adulto.",
+        "imageUrl": "/images/productos/productos_gatos/alimentos_gatos/cats_proplan.png"
+    }
 ]
