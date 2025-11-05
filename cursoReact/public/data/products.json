@@ -5,7 +5,7 @@
         "price": 4500,
         "category": "dulce",
         "description": "Adulto mordida media.",
-        "imageUrl": "/images/productos/productos_perros/alimentos_perros/156157-removebg-preview.png"
+        "imageUrl": "/images/156157-removebg-preview.png"
     },
     {
         "id": "2",
@@ -13,7 +13,7 @@
         "price": 3200,
         "category": "salado",
         "description": "Cordero Adulto Medio.",
-        "imageUrl": "/images/productos/productos_perros/alimentos_perros/old-prince-cordero-removebg-preview.png"
+        "imageUrl": "/images/old-prince-cordero-removebg-preview.png"
     },
     {
         "id": "3",
@@ -21,6 +21,6 @@
         "category": "dulce",
         "price": 1200,
         "description": "Pollo adulto.",
-        "imageUrl": "/images/productos/productos_gatos/alimentos_gatos/cats_proplan.png"
+        "imageUrl": "/images/cats_proplan.png"
     }
 ]

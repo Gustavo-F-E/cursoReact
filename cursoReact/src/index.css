@@ -1,3 +1,17 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body, #root {
+    min-height: 100vh; 
+    width: 100%;
+}
+
+
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -11,6 +25,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px; /* Punto de quiebre para pantallas medianas (tablets) */
+  --breakpoint-lg: 992px; /* Punto de quiebre para pantallas grandes (desktop) */
+  --breakpoint-xl: 1200px;
 }
 
 a {
